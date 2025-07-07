@@ -6,6 +6,7 @@ export interface Project {
   description: string;
   tools: string[];
   registrationLink: "https://forms.gle/XVHkLg2yX9kR43Sp7";
+  submissionLink: string;
   difficulty: 'Beginner' | 'Intermediate' | 'Advanced'; 
   duration: string;
 }
