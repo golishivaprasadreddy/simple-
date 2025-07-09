@@ -84,18 +84,17 @@ export default function Home() {
               Choose projects. Work independently. Get certified. Build your portfolio with real-world projects across multiple domains.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-scale-in">
-              <Button size="lg" asChild className="px-8 group hover:scale-105 transition-transform">
-                <Link href="/projects">
+              <Link href="/projects">
+                <Button size="lg" className="px-8 group hover:scale-105 transition-transform">
                   Explore Projects 
                   <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                </Link>
-              </Button>
-              <Button size="lg" variant="outline" className="px-8 hover:scale-105 transition-transform">
-                <Link href="#">
-
-                Learn More
-                </Link>
-              </Button>
+                </Button>
+              </Link>
+              <Link href="#">
+                <Button size="lg" variant="outline" className="px-8 hover:scale-105 transition-transform">
+                  Learn More
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
@@ -218,13 +217,13 @@ export default function Home() {
             Join hundreds of students who have already enhanced their skills and earned certificates through our internship program.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-scale-in">
-            <Button size="lg" variant="secondary" asChild className="px-8 hover:scale-105 transition-transform group">
-              <Link href="/projects">
+            <Link href="/projects">
+              <Button size="lg" variant="secondary" className="px-8 hover:scale-105 transition-transform group">
                 Browse Projects 
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </Link>
-            </Button>
-            <Button size="lg" variant="outline" className="px-8 border-white  hover:bg-white hover:text-blue-600 hover:scale-105 transition-all">
+              </Button>
+            </Link>
+            <Button size="lg" variant="outline" className="px-8 border-white hover:bg-white hover:text-blue-600 hover:scale-105 transition-all">
               Contact Us
             </Button>
           </div>
